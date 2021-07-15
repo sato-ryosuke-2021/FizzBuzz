@@ -1,8 +1,9 @@
-fun main(args: Array<String>) 
+fun main() 
 {
-    val num = args[0].toInt()
+    val range: IntRange = 1..100
+    val len = range.toList().size
     
-    printFizzBuzz(num)
+    printFizzBuzz(len)
 }
 
 fun printFizzBuzz (max: Int) 
